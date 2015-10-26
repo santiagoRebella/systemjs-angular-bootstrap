@@ -1,0 +1,15 @@
+.col-sm-24.page
+
+  h2 Home Page
+
+  h3 D3 directive
+
+  d3-bar-chart.d3Directive(input="my.data", w="400", h="200", t="30", dx="[0,30]", dy="[24,0]", details="details")
+
+  h3 kibana iframe
+
+  iframe(src="http://localhost:5601/#/visualize/create?embed&type=area&indexPattern=shakespeare&_g=()&_a=(filters:!(),linked:!f,query:(query_string:(analyze_wildcard:!t,query:'*')),vis:(aggs:!((id:'1',params:(),schema:metric,type:count),(id:'2',params:(field:play_name,order:desc,orderBy:'1',size:15),schema:group,type:terms),(id:'3',params:(field:speaker,order:desc,orderBy:'1',size:5),schema:segment,type:terms)),listeners:(),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,defaultYExtents:!f,interpolate:linear,mode:stacked,scale:linear,setYExtents:!f,shareYAxis:!t,smoothLines:!t,spyPerPage:10,times:!(),yAxis:()),type:area))", height="600", width="800")
+
+
+
+

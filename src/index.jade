@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title angular-systemjs-bootstrap-kibana
+    link(rel="styleSheet", href="css/main.min.css")
+    script(src="js/system/system.js")
+    script(src="js/init.js")
+
+  body(ng-cloak)
+
+    .container-fluid#viewFrame(ui-view)
+      section.row
+        nav-header
+      section.row
+        .col-sm-24#subviewFrame(ui-view)
+      </section>
+

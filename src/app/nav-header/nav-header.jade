@@ -1,0 +1,21 @@
+
+header.col-xs-24(role="navigation", id="topHeader")
+  h1.navbar-header.navbar-left(ui-sref="root.dashboard", ng-click="") PROTOTYPE
+
+  nav.nav.navbar-nav.navbar-right
+
+    .navTopText
+      div
+        span Something here:
+        span.text-success {{ something.here }}
+      div
+        span Something there:
+        span.text-success {{ something.there }}
+
+    .btn.btn-default.btn-xs(ng-class="{active:isActive('root.home')}", ui-sref="root.home")
+      span.glyphicon.glyphicon-plus-sign Home
+
+    .btn.btn-default.btn-xs(ng-class="{active:isActive('root.dashboard')}", ui-sref="root.dashboard")
+      span.glyphicon.glyphicon-refresh Dashboard
+
+

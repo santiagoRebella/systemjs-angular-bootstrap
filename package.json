@@ -1,0 +1,49 @@
+{
+  "name": "app-prototype",
+  "version": "0.0.1",
+  "description": "kibana angular prototype",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.10.0",
+    "cors": "^2.7.1",
+    "express": "^4.10.6"
+  },
+  "devDependencies": {
+    "del": "latest",
+    "gulp": "latest",
+    "gulp-concat": "latest",
+    "gulp-csslint": "latest",
+    "gulp-flatten": "latest",
+    "gulp-jade": "latest",
+    "gulp-jade-usemin": "^1.0.5",
+    "gulp-jshint": "latest",
+    "gulp-livereload": "latest",
+    "gulp-load-plugins": "latest",
+    "gulp-minify-css": "^1.1.6",
+    "gulp-minify-html": "^1.0.3",
+    "gulp-mocha": "^2.1.0",
+    "gulp-nodemon": "latest",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "latest",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest",
+    "jshint-stylish": "latest",
+    "mocha": "^2.2.5",
+    "nodemon": "latest",
+    "require-dir": "latest",
+    "should": "^6.0.3",
+    "source-map": "latest",
+    "systemjs": "^0.18.17",
+    "vinyl-source-stream": "latest",
+    "gulp-imagemin": "^2.2.1",
+    "imagemin-pngquant": "^4.1.0",
+    "sprity": "^1.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Santiago Rebella santiago_rebella@hotmail.com",
+  "license": "ISC"
+}

@@ -1,0 +1,11 @@
+@function getColor($color, $tone: 'base') {
+  @return map-get(map-get($palette, $color), $tone);
+}
+
+@function get($conf-map, $property, $attr:false) {
+  @if $attr == false {
+    @return map-get($conf-map, $property);
+  } @else {
+    @return map-get(map-get($conf-map, $property), $attr);
+  }
+}
